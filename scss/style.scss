@@ -1,8 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-header{
-    background-color: red;
-}
+@import "./base/general";
+@import "./base/reset";
+@import "./layout/body-index";
+@import "./layout/body-general";
+@import "./layout/header";
+@import "./layout/footer"
