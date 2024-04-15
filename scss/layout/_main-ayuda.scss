@@ -1,0 +1,96 @@
+.botonbusqueda{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    padding: 2rem;
+}
+
+.botonbusqueda input{
+    height: 25px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+.botonbusqueda button{
+    height: 25px;
+    width: 55px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.consultasFrecuentes h2{
+    text-transform: uppercase;
+    margin-top: 2rem;
+    font-size: 18px;
+    font-weight:600;
+    color: #353535;
+    text-align: left;
+    margin-left: 200px; 
+}
+
+.consultasFrecuentes div ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.consultasFrecuentes div ul a{
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0.2rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    margin: 3rem;
+    background-color: #efdedeaa;
+    color: #6B6965;
+    border: 1px solid #6B6965;
+}
+.temasAyuda div h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    color: #353535;
+    text-align: left;
+    margin-left:200px;
+}
+
+.seccionAyuda{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 15rem) ;
+    grid-template-rows: repeat(2, 8rem) ;
+    justify-content: center;
+    align-content: center;
+    gap: 3.1rem;
+    column-gap: 3.1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.seccionAyuda article{
+    background-color: #efdedeaa;
+    border: 1px solid #6B6965;
+    list-style: none;
+    padding: 1.5rem;
+    align-content: center;
+}
+.seccionAyuda article h3{
+    position: relative;
+    text-transform: uppercase;
+    color: #6B6965;
+    font-weight: 600;
+    font-size: 14.5px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    padding: 0.4rem;
+}
+.seccionAyuda article a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #6B6965;
+    font-weight: 300;
+    font-size: 10px;
+    font-family: "Inter", sans-serif;
+}

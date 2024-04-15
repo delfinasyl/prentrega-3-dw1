@@ -50,6 +50,284 @@ header {
     color: #ffffff;
     font-size: 24px; }
 
+.cuerpoIndice {
+  width: 100%; }
+
+.indice {
+  display: none; }
+
+.seccionArticulos {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  grid-template-rows: repeat(3, 25rem);
+  grid-template-areas: "articulo1 articulo2 articulo2" "articulo3 articulo3 articulo4" "articulo5 articulo5 articulo5";
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+  justify-content: center;
+  padding: 2rem; }
+
+.articulo1 {
+  grid-area: articulo1;
+  position: relative;
+  text-align: center; }
+
+.articulo1 img {
+  width: 100%;
+  height: 100%; }
+
+.articulo2 {
+  grid-area: articulo2;
+  position: relative;
+  text-align: center; }
+
+.articulo2 img {
+  width: 100%;
+  height: 100%; }
+
+.articulo3 {
+  grid-area: articulo3;
+  position: relative;
+  text-align: center; }
+
+.articulo3 img {
+  width: 100%;
+  height: 100%; }
+
+.articulo4 {
+  grid-area: articulo4;
+  position: relative;
+  text-align: center; }
+
+.articulo4 img {
+  width: 100%;
+  height: 100%; }
+
+.articulo5 {
+  grid-area: articulo5;
+  position: relative;
+  text-align: center; }
+
+.articulo5 img {
+  width: 100%;
+  height: 100%; }
+
+.descripcionArt {
+  width: 100%;
+  position: absolute;
+  color: #6B6965;
+  background-color: rgba(255, 255, 255, 0.65);
+  text-transform: capitalize;
+  padding: 0.3rem;
+  bottom: 0; }
+
+.descripcionArt h2 {
+  font-weight: 300;
+  font-size: 22px; }
+
+.descripcionArt h3 {
+  font-weight: 300;
+  font-size: 20px; }
+
+.botonbusqueda {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  padding: 2rem; }
+
+.botonbusqueda input {
+  height: 25px;
+  width: 300px;
+  text-align: center;
+  border-radius: 5px; }
+
+.botonbusqueda button {
+  height: 25px;
+  width: 55px;
+  text-align: center;
+  text-transform: capitalize; }
+
+.consultasFrecuentes h2 {
+  text-transform: uppercase;
+  margin-top: 2rem;
+  font-size: 18px;
+  font-weight: 600;
+  color: #353535;
+  text-align: left;
+  margin-left: 200px; }
+
+.consultasFrecuentes div ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center; }
+
+.consultasFrecuentes div ul a {
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0.2rem;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  margin: 3rem;
+  background-color: #efdedeaa;
+  color: #6B6965;
+  border: 1px solid #6B6965; }
+
+.temasAyuda div h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  color: #353535;
+  text-align: left;
+  margin-left: 200px; }
+
+.seccionAyuda {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 15rem);
+  grid-template-rows: repeat(2, 8rem);
+  justify-content: center;
+  align-content: center;
+  gap: 3.1rem;
+  column-gap: 3.1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.seccionAyuda article {
+  background-color: #efdedeaa;
+  border: 1px solid #6B6965;
+  list-style: none;
+  padding: 1.5rem;
+  align-content: center; }
+
+.seccionAyuda article h3 {
+  position: relative;
+  text-transform: uppercase;
+  color: #6B6965;
+  font-weight: 600;
+  font-size: 14.5px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  padding: 0.4rem; }
+
+.seccionAyuda article a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #6B6965;
+  font-weight: 300;
+  font-size: 10px;
+  font-family: "Inter", sans-serif; }
+
+.mainCarrito {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.carritoCompras {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #6B6965;
+  padding: 1rem;
+  margin: 2rem;
+  justify-content: center;
+  align-items: center; }
+
+.micarrito {
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center; }
+
+.seleccionados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.articulo-sel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.5rem;
+  border: 1px solid #6B6965; }
+
+.quantity-btn {
+  background-color: #EFDEDE;
+  color: #333230;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 0.5rem; }
+
+.lessplus-btn {
+  background-color: #b6b3ab;
+  color: #333230;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0.5rem; }
+
+.seleccionados article img {
+  width: 100px;
+  height: 75px;
+  margin: 0.5rem; }
+
+.seleccionados article p {
+  margin: 10px;
+  text-align: center;
+  color: #6B6965;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin: 1rem; }
+
+.divValores {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  color: #6B6965;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  text-transform: capitalize; }
+
+.divValorestotal {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  color: #6B6965;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: bold; }
+
+.comprar {
+  font-size: 15px;
+  color: #6B6965;
+  background-color: #EFDEDE;
+  border: 1.5px solid #6B6965;
+  padding: 0.5rem; }
+
 .footerIndex {
   width: 100%;
   height: 4.5rem;
