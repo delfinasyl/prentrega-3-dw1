@@ -1,0 +1,41 @@
+@media (max-width:1024px){
+    .navBar li a{
+        font-size: 22px;
+    }
+
+    /**main ARTICULOS inicio*/
+    .seccionArticulos{
+        grid-template-columns: repeat(3, 255px);
+        grid-template-rows: repeat(3, 255px);
+    }
+    .descripcionArt h2{
+        font-size: 19px;
+    }
+    .descripcionArt h3{
+        font-size: 19px;
+    }
+    /**main ARTICULOS fin*/
+
+    /**main AYUDA inicio*/
+    .consultasFrecuentes h2{
+        margin-left: 120px; 
+    }
+    .consultasFrecuentes div ul a{
+        font-size: 14px;
+        padding: 0.2rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin: 0.7rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .temasAyuda div h2{
+        margin-left: 120px; 
+    }
+    .seccionAyuda{
+        grid-template-columns: repeat(4, 11.5rem) ;
+        grid-template-rows: repeat(2, 8rem) ;
+        gap: 2.5rem;
+        column-gap: 0.9rem;
+        }
+}
