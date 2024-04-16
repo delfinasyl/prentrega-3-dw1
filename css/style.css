@@ -373,3 +373,48 @@ footer {
     grid-template-rows: repeat(2, 8rem);
     gap: 2.5rem;
     column-gap: 0.9rem; } }
+
+/**INICIO - MEDIA QUERIES 768px **/
+@media (max-width: 768px) {
+  .navBar li a {
+    font-size: 22px; }
+  /**main ARTICULOS inicio*/
+  .seccionArticulos {
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px); }
+  .descripcionArt h2 {
+    font-weight: 300;
+    font-size: 15px; }
+  .descripcionArt h3 {
+    font-weight: 300;
+    font-size: 15px; }
+  /**main ARTICULOS fin*/
+  /**main AYUDA inicio*/
+  .consultasFrecuentes h2 {
+    margin: 1rem;
+    margin-left: 75px; }
+  .consultasFrecuentes div ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    margin-right: 75px; }
+  .consultasFrecuentes div ul a {
+    margin: 0.2rem;
+    text-align: center; }
+  .temasAyuda div h2 {
+    margin: 1rem;
+    margin-left: 75px; }
+  .seccionAyuda {
+    grid-template-columns: repeat(3, 11.5rem);
+    grid-template-rows: repeat(3, 8rem);
+    gap: 2.5rem;
+    column-gap: 1.7rem; }
+  /**main AYUDA fin*/
+  .navFooter li a {
+    font-size: 0.8rem;
+    padding-left: 2.5rem; }
+  .navFollow a img {
+    width: 1.2rem;
+    height: 1.2rem; } }
+
+/**FIN - MEDIA QUERIES 768px **/
