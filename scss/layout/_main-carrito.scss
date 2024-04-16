@@ -1,7 +1,5 @@
 .mainCarrito{
-    display: flex;
-    justify-content: center;
-    align-items: center;    
+    @include flex (row, center, center)
     }
     .carritoCompras{
         width: 100%;
@@ -24,14 +22,10 @@
         text-align: center;
     }
     .seleccionados{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        @include flex (column, center, center);
     }
     .articulo-sel{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+        @include flex (row, center, center);
         margin: 0.5rem; 
         border: 1px solid #6B6965;
     
@@ -78,11 +72,9 @@
     
     .divValores{
         width:400px;
-        display: flex;
-        flex-direction: row;
+        @include flex (row, space-between, center);
         font-size: 14px;
         color: #6B6965;
-        justify-content: space-between;
         padding: 1rem ;
         padding-top: 5px ;
         padding-bottom: 5px ;
@@ -91,11 +83,9 @@
     }
     .divValorestotal{
         width:400px;
-        display: flex;
-        flex-direction: row;
+        @include flex (row, space-between, center);
         font-size: 14px;
         color: #6B6965;
-        justify-content: space-between;
         padding: 1rem ;
         padding-top: 5px ;
         padding-bottom: 5px ;

@@ -24,11 +24,8 @@
         text-align: left;
         margin-left: 200px; 
     }
-    div ul {    
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-content: center;
+    div ul {   
+        @include flex (row, center, center);
             a{    
                 text-transform: uppercase;
                 text-decoration: none;
