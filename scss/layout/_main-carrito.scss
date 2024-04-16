@@ -44,16 +44,9 @@
     
     }
     .lessplus-btn{
+        @extend.quantity-btn;
         background-color: map-get($colorbackround, bcarritoboton2);
-        color: #333230;
-        border: none;
-        border-radius: 50%;
-        width: 30px;
-        height: 30px;
         font-size: 20px;
-        cursor: pointer;
-        margin: 0.5rem;
-        
     }
     
     .seleccionados article img{
@@ -82,15 +75,7 @@
         text-transform: capitalize;
     }
     .divValorestotal{
-        width:400px;
-        @include flex (row, space-between, center);
-        font-size: 14px;
-        color:map-get($colores, carritotext );
-        padding: 1rem ;
-        padding-top: 5px ;
-        padding-bottom: 5px ;
-        font-size: 15px;
-        text-transform: capitalize;
+        @extend.divValores;
         font-weight: bold;
     }
     .comprar{
