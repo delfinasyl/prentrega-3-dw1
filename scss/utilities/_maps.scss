@@ -4,15 +4,21 @@ $colores: (
     titulosayuda: #353535,
     consultastext:#6B6965,
     footertext: #6B6965,
+    carritotext: #6B6965,
 );
 $colorbackround: (
     bfooter: #D7D2CA,
+    barticulos: rgba(255, 255, 255, 0.65),
     bayuda: #efdedeaa,
     bcarrito:  rgba(255, 255, 255, 0.7),
+    bcarritoboton1:  #EFDEDE,
+    bcarritoboton2:  #b6b3ab,
 );
 $fuentes: (
     navbarheight: 24px,
     articulot1:22px,
     articulot2:20px,
     titulosayuda:18px,
+    footerheight:16px
+
 );

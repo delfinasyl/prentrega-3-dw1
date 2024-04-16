@@ -7,8 +7,8 @@
         width: 400px;
         display: flex;
         flex-direction: column;
-        background-color: rgba(255, 255, 255, 0.7);
-        color: #6B6965;
+        background-color: map-get($colorbackround, bcarrito );
+        color:map-get($colores, carritotext );
         padding:1rem;
         margin: 2rem;
         justify-content: center;
@@ -32,7 +32,7 @@
     }
     
     .quantity-btn {
-        background-color: #EFDEDE;
+        background-color: map-get($colorbackround, bcarritoboton1 );
         color: #333230;
         border: none;
         border-radius: 50%;
@@ -44,7 +44,7 @@
     
     }
     .lessplus-btn{
-        background-color: #b6b3ab;
+        background-color: map-get($colorbackround, bcarritoboton2);
         color: #333230;
         border: none;
         border-radius: 50%;
@@ -64,7 +64,7 @@
     .seleccionados article p{
         margin: 10px;
         text-align: center;
-        color: #6B6965;
+        color:map-get($colores, carritotext );
         font-size: 14px;
         text-transform: capitalize;
         margin: 1rem;
@@ -74,7 +74,7 @@
         width:400px;
         @include flex (row, space-between, center);
         font-size: 14px;
-        color: #6B6965;
+        color:map-get($colores, carritotext );
         padding: 1rem ;
         padding-top: 5px ;
         padding-bottom: 5px ;
@@ -85,7 +85,7 @@
         width:400px;
         @include flex (row, space-between, center);
         font-size: 14px;
-        color: #6B6965;
+        color:map-get($colores, carritotext );
         padding: 1rem ;
         padding-top: 5px ;
         padding-bottom: 5px ;
@@ -95,8 +95,8 @@
     }
     .comprar{
         font-size: 15px;
-        color: #6B6965;
-        background-color: #EFDEDE;
+        color:map-get($colores, carritotext );
+        background-color: map-get($colorbackround, bcarritoboton1 );
         border: 1.5px solid #6B6965;
         padding: 0.5rem;
     

@@ -18,9 +18,9 @@
 .consultasFrecuentes {
     h2{ text-transform: uppercase;
         margin-top: 2rem;
-        font-size: 18px;
+        font-size: map-get($fuentes , titulosayuda );
         font-weight:600;
-        color: #353535;
+        color: map-get($colores, titulosayuda );
         text-align: left;
         margin-left: 200px; 
     }
@@ -37,8 +37,8 @@
                 padding-left: 1.4rem;
                 padding-right: 1.4rem;
                 margin: 3rem;
-                background-color: #efdedeaa;
-                color: #6B6965;
+                background-color: map-get($colorbackround , bayuda );
+                color: map-get($colores, consultastext );
                 border: 1px solid #6B6965;
             }
     }
@@ -46,9 +46,9 @@
 
 .temasAyuda div h2{
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: map-get($fuentes, titulosayuda );
     font-weight: 600;
-    color: #353535;
+    color:map-get($colores, titulosayuda );
     text-align: left;
     margin-left:200px;
 }
@@ -66,7 +66,7 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     article{
-        background-color: #efdedeaa;
+        background-color:map-get($colorbackround, bayuda );
         border: 1px solid #6B6965;
         list-style: none;
         padding: 1.5rem;
@@ -74,7 +74,7 @@
         h3{        
             position: relative;
             text-transform: uppercase;
-            color: #6B6965;
+            color:map-get($colores, consultastext );
             font-weight: 600;
             font-size: 14.5px;
             font-family: "Inter", sans-serif;
@@ -83,7 +83,7 @@
         a{
             text-decoration: none;
             text-transform: uppercase;
-            color: #6B6965;
+            color:map-get($colores, consultastext );
             font-weight: 300;
             font-size: 10px;
             font-family: "Inter", sans-serif;

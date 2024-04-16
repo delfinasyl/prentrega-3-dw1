@@ -15,6 +15,6 @@ header{
     padding: 1rem;
     li a {    text-transform: uppercase;
         text-decoration: none;
-        color: #ffffff;
-        font-size: 24px;}
+        color: map-get($colores , navbartext );
+        font-size: map-get($fuentes, navbarheight);}
 }

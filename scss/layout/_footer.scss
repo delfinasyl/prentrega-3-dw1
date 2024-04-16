@@ -4,7 +4,7 @@
     @include flex (column, center, center)
     background-size: cover;
     background-position: 0;
-    background-color: #D7D2CA;
+    background-color: map-get($colorbackround, bfooter );
     bottom: 0;
     position: fixed;
 }
@@ -14,7 +14,7 @@ footer{
     @include flex (column, center, center)
     background-size: cover;
     background-position: 0;
-    background-color: #D7D2CA;
+    background-color: map-get($colorbackround, bfooter );
     bottom: 0;
 }
 .navFooter{
@@ -24,8 +24,8 @@ footer{
     li a {  
         text-transform: uppercase;
         text-decoration: none;
-        font-size: 1rem;
-        color: #6B6965;
+        font-size: map-get($fuentes, footerheight );
+        color: map-get($colores,footertext);
         padding-left: 3.1rem;}
 }
 .navFollow{

@@ -357,7 +357,7 @@ footer {
   .navFooter li a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 16px;
     color: #6B6965;
     padding-left: 3.1rem; }
 
