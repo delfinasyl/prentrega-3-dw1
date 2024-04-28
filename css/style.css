@@ -81,10 +81,13 @@ header {
 .articulo1, .articulo2, .articulo3, .articulo4, .articulo5 {
   grid-area: articulo1;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
   .articulo1 img, .articulo2 img, .articulo3 img, .articulo4 img, .articulo5 img {
     width: 100%;
     height: 100%; }
+  .articulo1 img:hover, .articulo2 img:hover, .articulo3 img:hover, .articulo4 img:hover, .articulo5 img:hover {
+    transform: scale(125%); }
 
 .articulo2 {
   grid-area: articulo2;
