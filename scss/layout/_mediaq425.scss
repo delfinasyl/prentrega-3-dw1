@@ -8,6 +8,11 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
+    .bodyCarrito{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("../assets/base-fondo-indice.jpg") ;
+        background-size: 200%;
+        background-repeat: no-repeat;
+    }
     body{
         background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5)), url(../assets/base-fondo-indice.jpg);
         background-repeat: repeat;
@@ -100,6 +105,35 @@
     .navFollow a img{
         width: 1.2rem;
         height: 1.2rem; 
+    }
+    .carritoCompras{
+        width: 300px;
+    }
+    .micarrito{
+        font-size: 14px;
+    }
+    .quantity-btn{
+        width: 20px;
+        height: 20px;
+        font-size: 13px;
+        margin: 0.15rem;
+    }
+    .lessplus-btn{
+        font-size: 13px;
+    }
+    .seleccionados article img{
+        width: 75px;
+        height: 50px;
+    }
+    .seleccionados article p{
+        font-size: 13px;
+    }
+    .divValores{
+        width: 270px;
+        font-size: 13px;
+    }
+    .comprar{
+        font-size: 13px;
     }
 }
 /**FIN - MEDIA QUERIES 425px **/
